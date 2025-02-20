@@ -51,3 +51,18 @@ button {
     /* Gradiente de fondo para los números */
     background: linear-gradient(45deg, #30cfd0, #330867);
 }
+
+/* Gradiente de fondo para los operadores */
+button:nth-child(4n+4) {
+    background: linear-gradient(45deg, #46a81f, #8da37e);
+}
+
+/* Gradiente de fondo para el igual */
+button:nth-child(15) {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
