@@ -9,3 +9,26 @@ body {
     background-size: cover;
     margin: 0;
 }
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background: rgba(13, 0, 134, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pantalla {
+    grid-column: span 4;
+    height: 60px;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    background: rgba(25, 0, 253, 0.5);
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 4px 6px rgba(255, 255, 255, 0.2);
+}
